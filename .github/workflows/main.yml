@@ -41,4 +41,5 @@ jobs:
           python -VV
           python -m site
           pwd
-          python3 -c "$(curl -fsSL https://github.com/easyscalecloud/stern_hackathon_mvp/releases/download/0.1.1/esclusive_repo_ai.py)"
+          curl -fsSL https://github.com/easyscalecloud/stern_hackathon_mvp/releases/download/0.1.1/esclusive_repo_ai.py -o esclusive_repo_ai.py
+          python3 esclusive_repo_ai.py
