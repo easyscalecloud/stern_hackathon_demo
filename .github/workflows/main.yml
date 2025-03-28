@@ -10,6 +10,9 @@ on:
     branches: ["main"]
   workflow_dispatch: # allows you to manually trigger run
 
+permissions:
+  contents: write
+
 jobs:
   tests:
     name: "${{ matrix.os }} Python ${{ matrix.python-version }}"
@@ -31,6 +34,8 @@ jobs:
           python-version: "${{ matrix.python-version }}"
 
       - name: "Install dependencies on MacOS or Linux"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -xe
           python -VV
