@@ -9,7 +9,7 @@ on:
   workflow_dispatch: # allows you to manually trigger run
 
 permissions:
-  contents: write
+  contents: write # need this permission to publish knowledge base to GitHub Release
 
 jobs:
   esclusive_repo_ai:
@@ -23,6 +23,7 @@ jobs:
       - name: "build and publish all in one knowledge base"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # CRITICAL
         run: |
           curl -fsSL https://github.com/easyscalecloud/stern_hackathon_mvp/releases/download/0.1.1/esclusive_repo_ai.py -o esclusive_repo_ai.py
           python3 esclusive_repo_ai.py
