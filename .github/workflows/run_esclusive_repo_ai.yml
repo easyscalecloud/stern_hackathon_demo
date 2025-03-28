@@ -13,4 +13,4 @@ permissions:
 
 jobs:
   run_esclusive_repo_ai:
-    uses: easyscalecloud/stern_hackathon_mvp/.github/workflows/esclusive_repo_ai.yml.yml@main
+    uses: easyscalecloud/stern_hackathon_mvp/.github/workflows/esclusive_repo_ai.yml@main
