@@ -36,7 +36,7 @@ We uploaded our generated ``all_in_one_knowledge_base.txt`` file and asked ident
 
 🔗 Additional Demonstrations
 ------------------------------------------------------------------------------
-- `GitHub Action Workflow Configuration <https://github.com/easyscalecloud/stern_hackathon_demo/blob/main/.github/workflows/run_esclusive_repo_ai.yml>`_: We simply followed the instructions in the `How to Use <https://github.com/easyscalecloud/stern_hackathon_mvp?tab=readme-ov-file#how-to-use>`_ section and copied the provided workflow file..
+- `GitHub Action Workflow Configuration <https://github.com/easyscalecloud/stern_hackathon_demo/blob/main/.github/workflows/run_esclusive_repo_ai.yml>`_: We simply followed the instructions in the `How to Use <https://github.com/easyscalecloud/stern_hackathon_mvp?tab=readme-ov-file#-how-to-use>`_ section and copied the provided workflow file..
 - `Knowledge Base Configuration <https://github.com/easyscalecloud/stern_hackathon_demo/blob/main/.github/workflows/esclusive_repo_ai_config.json>`_: We created a custom configuration to connect to our target repository.
 - `Sample Automation Run <https://github.com/easyscalecloud/stern_hackathon_demo/actions/runs/14138804033/job/39616466381>`_: View the CI job automatically generating our knowledge base.
 - `Generated all_in_one_knowledge_base.txt file <https://github.com/easyscalecloud/stern_hackathon_demo/releases/download/knowledge-base/all_in_one_knowledge_base.txt>`_: Download the resulting file from our `GitHub Release <https://github.com/easyscalecloud/stern_hackathon_demo/releases/tag/knowledge-base>`_ that can be used with any AI assistant.
