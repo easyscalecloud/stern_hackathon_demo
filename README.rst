@@ -1,29 +1,29 @@
-Stern Hackathon Demo
+🚀 Stern Hackathon Demo
 ==============================================================================
 This repository is part of our deliverables for the `Microsoft Garage presents Stern Hackathon <https://nyustern.campusgroups.com/sta/rsvp_boot?id=1928010>`_. It demonstrates how we built an AI assistant with comprehensive knowledge of any selected repository (using the `Python requests library <https://github.com/psf/requests>`_ as our demonstration example).
 
 
-A Before and After Comparison
+🔍 A Before and After Comparison
 ------------------------------------------------------------------------------
 n this demonstration, we followed the installation instructions for our `ESClusive Repo AI <https://github.com/easyscalecloud/stern_hackathon_mvp>`_ product to generate a knowledge base for the `Python request library github repo <https://github.com/psf/requests>`_. Let's simulate being an engineer who wants to familiarize themselves with the repository before contributing. We'll ask several questions ranging from high-level concepts to specific details, comparing results with and without our knowledge base.
 
-**Without Our Knowledge Base**
+**❌ Without Our Knowledge Base**
 
 We directly asked questions in ChatGPT. View the `chat history Requests Library Architecture without Knowledge Base <https://chatgpt.com/share/67e7e55b-1e90-800c-9743-e585e2f7f9e2>`_. We identified several problems:
 
-- **Outdated Information**: The source code structure described doesn't match the current GitHub repository
-- **Broken Hyperlinks**: Links provided are fabricated and return 404 errors
-- **Inaccurate Information**: Unable to reference the source code directly, leading to factual errors
+- **📅 Outdated Information**: The source code structure described doesn't match the current GitHub repository
+- **🔗 Broken Hyperlinks**: Links provided are fabricated and return 404 errors
+- **❌ Inaccurate Information**: Unable to reference the source code directly, leading to factual errors
 
-**With Our Knowledge Base**
+**✅ With Our Knowledge Base**
 
 We uploaded our generated ``all_in_one_knowledge_base.txt`` file and asked identical questions. View the `chat history Requests Library Architecture with Knowledge Base <https://chatgpt.com/share/67e7e487-ace4-800c-b14e-78bb590e3b42>`_.
 
-- **Up-to-date Information**: All details reflect the current state of the repository
-- **Accurate Hyperlinks**: All links correctly navigate to the source code on GitHub
-- **Source-verified Responses**: Every answer cites original source code with verifiable links
+- **📅 Up-to-date Information**: All details reflect the current state of the repository
+- **🔗 Accurate Hyperlinks**: All links correctly navigate to the source code on GitHub
+- **✅ Source-verified Responses**: Every answer cites original source code with verifiable links
 
-**Questions We Asked**
+**💬 Questions We Asked**
 
     I want to get more familiar with this Python requests library source code.
 
@@ -34,7 +34,7 @@ We uploaded our generated ``all_in_one_knowledge_base.txt`` file and asked ident
     5. How does the library handle redirect logic, and where is that implemented?
 
 
-Additional Demonstrations
+🔗 Additional Demonstrations
 ------------------------------------------------------------------------------
 - `GitHub Action Workflow Configuration <https://github.com/easyscalecloud/stern_hackathon_demo/blob/main/.github/workflows/run_esclusive_repo_ai.yml>`_: We simply followed the instructions in the `How to Use <https://github.com/easyscalecloud/stern_hackathon_mvp?tab=readme-ov-file#how-to-use>`_ section and copied the provided workflow file..
 - `Knowledge Base Configuration <https://github.com/easyscalecloud/stern_hackathon_demo/blob/main/.github/workflows/esclusive_repo_ai_config.json>`_: We created a custom configuration to connect to our target repository.
